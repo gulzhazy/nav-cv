@@ -1,9 +1,10 @@
-body {
+html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .header {
-  background-color: blue;
+  background-color: rgb(14, 14, 143);
   box-sizing: border-box;
   width: 100%;
 }
@@ -11,6 +12,15 @@ body {
 .container {
   margin: 0 auto;
   width: 1140px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .header-menu-item {
@@ -51,4 +61,136 @@ body {
 
 .header-menu-link:hover {
   background-color: rgb(165, 185, 190);
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+/* intro-img {
+  width: 250px;
+  
+} */
+
+.intro-left {
+  width: 30%;
+}
+
+.intro {
+  padding: 60px 0;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-right {
+  width: 60%;
+  color: rgb(14, 14, 143);
+}
+
+.into-right h1,
+h3 {
+  margin: 0 0 15px;
+}
+
+.contacts ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: center;
+}
+
+.contacts {
+  margin-bottom: 60px;
+  color: rgb(14, 14, 143);
+}
+.skills {
+  color: white;
+  background-color: rgb(14, 14, 143);
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 15px;
+}
+
+.skills li {
+  padding: 10px 25px;
+  background-color: rgb(165, 185, 190);
+  border-radius: 4px;
+}
+
+.code-example {
+  text-align: center;
+  color: rgb(14, 14, 143);
+}
+
+.code-example p {
+  font-style: italic;
+}
+
+.code-example b {
+  font-style: normal;
+}
+
+.code-example pre {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  text-align: left;
+  color: rgb(165, 185, 190);
+  background-color: rgb(14, 14, 143);
+  border-radius: 8px;
+}
+
+.portfolio {
+  color: white;
+  background-color: rgb(14, 14, 143);
+  margin: 0 auto;
+}
+
+.portfolio-photos {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.languages {
+  color: rgb(14, 14, 143);
+}
+
+.languages ul,
+li {
+  font-size: 20px;
+}
+
+.education {
+  color: white;
+  background-color: rgb(14, 14, 143);
+}
+
+.education li {
+  font-style: italic;
+}
+
+footer {
+  padding: 20px 0;
+  color: rgb(14, 14, 143);
+  text-align: center;
 }
